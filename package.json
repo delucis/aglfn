@@ -1,0 +1,37 @@
+{
+  "name": "aglfn",
+  "version": "0.0.1",
+  "description": "Adobe Glyph List For New Fonts as JSON",
+  "main": "dist/aglfn.json",
+  "scripts": {
+    "install": "napa",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "node lib/build.js"
+  },
+  "napa": {
+    "aglfn": "adobe-type-tools/agl-aglfn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/aglfn.git"
+  },
+  "keywords": [
+    "aglfn",
+    "adobe",
+    "font",
+    "unicode",
+    "mapping",
+    "json",
+    "glyph"
+  ],
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/delucis/aglfn/issues"
+  },
+  "homepage": "https://github.com/delucis/aglfn#readme",
+  "devDependencies": {
+    "napa": "^3.0.0",
+    "write-json-file": "^2.3.0"
+  }
+}
