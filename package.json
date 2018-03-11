@@ -1,6 +1,6 @@
 {
   "name": "aglfn",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Adobe Glyph List For New Fonts as JSON",
   "main": "dist/aglfn.json",
   "scripts": {
