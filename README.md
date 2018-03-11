@@ -12,7 +12,7 @@ npm install --save aglfn
 
 ## Details
 
-Adobe’s AGLFN text file contains 3 fields:
+Adobe’s AGLFN text file contains 3 fields for each glyph:
 
 1. a unicode value as four uppercase hexadecimal digits, e.g. `00C1`
 2. a glyph name, e.g. `Aacute`
