@@ -32,6 +32,6 @@
   "homepage": "https://github.com/delucis/aglfn#readme",
   "devDependencies": {
     "napa": "^3.0.0",
-    "write-json-file": "^2.3.0"
+    "write-json-file": "^4.1.0"
   }
 }
