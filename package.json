@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Adobe Glyph List For New Fonts as JSON",
   "main": "dist/aglfn.json",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "napa && node lib/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
